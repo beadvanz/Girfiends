@@ -36,24 +36,16 @@
             max-width: 90%;
             font-family: Arial, Helvetica, sans-serif;
         }
-        h1 {
-            font-size: 2rem;
-            margin-bottom: 30px;
-            
-        }
-        @media (max-width: 600px) {
-            h1 {
-                font-size: 1.5rem;
-            }
-            body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            background: url("https://raw.githubusercontent.com/beadvanz/Girfiends/refs/heads/main/67c02d7189411a038f5dee8e.webp") no-repeat center center/cover;
-            position: relative;
-        }
-        }
+        .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .age {
+        width: 300px;
+    }
+       
         .buttons {
             display: flex;
             flex-direction: column;
@@ -64,27 +56,40 @@
             display: inline-block;
             padding: 15px 25px;
             font-size: 1rem;
-            color: white;
-            background: #fa0c5b;
+            font-weight: bold;
+            color: rgb(0, 0, 0);
+            background: #ff9900;
             border: none;
             border-radius: 5px;
             cursor: pointer;
             text-decoration: none;
             width: 200px;
             text-align: center;
+            box-shadow: 0 0 3px 1px rgba(255, 132, 0, 0.8);
         }
         .btn:hover {
-            background: #a20245;
+            background: #ff8400;
+        }
+        @media (max-width: 600px) {
+            body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: url("https://raw.githubusercontent.com/beadvanz/Girfiends/refs/heads/main/67c02d7189411a038f5dee8e.webp") no-repeat center center/cover;
+            position: relative;
+            }
         }
     </style>
 </head>
 <body>
     <div class="overlay"></div>
     <div class="content">
-        <h1>Experience the thrill of uncensored NSFW roleplay with GirlfriendGPT</h1>
+        <div class="container">
+            <img src="D:\insta\Lera\Are you 18 or older.png" alt="Continue?" class="age">
+        </div>
         <div class="buttons">
-            <a href="https://www.gptgirlfriend.online/?ref=n2iyntm" class="btn">Let's chat</a>
-            <a href="https://www.gptgirlfriend.online/?ref=n2iyntm" class="btn">Create your lover</a>
+            <a href="https://www.gptgirlfriend.online/?ref=n2iyntm" class="btn">Yes, explore now</a>
         </div>
     </div>
 </body>
